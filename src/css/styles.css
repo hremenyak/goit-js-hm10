@@ -22,15 +22,26 @@ body {
 .country-info {
   margin-left: 15px;
 }
-.country-info__wrapper {
+.wrapper {
   display: flex;
   align-items: center;
 }
 
-.country-info__desc {
+.country-info__name {
+  margin-left: 10px;
+}
+
+.country-info__features {
+  padding: 0px;
+}
+.country-info__feature {
   font-weight: 600;
 }
 
 .country-info__value {
   font-weight: 400;
+}
+
+.list {
+  list-style: none;
 }
